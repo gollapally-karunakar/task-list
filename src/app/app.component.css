@@ -1,5 +1,8 @@
+
 .container{
     margin-top: 2%;
+    border: 1px solid #ededed;
+    border-radius: 5px;
 }
 
 .saveBtn{
