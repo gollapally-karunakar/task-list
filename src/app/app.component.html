@@ -40,7 +40,7 @@
   <div *ngIf="taskObject.showHideTableInputs">
       <table class="table table-bordered">
         <thead>
-          <tr>
+          <tr style="color:#fff">
               <th *ngFor="let header of taskObject.headers">{{header.headerName}}</th>
           </tr>
         </thead>
@@ -51,6 +51,6 @@
           </tr>
         </tbody>
       </table>
-      <button type="button" class="btn btn-success" (click)="saveTask(obj)">Save Task</button>
+      <button type="button" class="btn btn-success" (click)="saveTask(obj)">Save Task</button><br><br>
   </div>
 </div>
